@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Dream Ludo</string>
+
+    <!-- Facebook -->
+    <string name="choose_one">Choose one</string>
+    <string name="facebook_app_id">111111111111</string>
+    <string name="fb_login_protocol_scheme">fb111111111111</string>
+    <string name="facebook_client_token">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+
+    <!-- RazorPay Api Key -->
+    <string name="razorpay_api_key" translatable="false">rzp_test_MdERIpPjmlDQut</string>
+
+    <!-- ********************* No Need change below value  ************************* -->
+
+    <string name="default_notification_channel_id">default</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="mobile_number">mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="mobile_login_example">Mobile Login example</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="x_x_x_x_x_x">X X X X X X</string>
+    <string name="next">NEXT</string>
+    <string name="login_username_hint">Username or Email</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="kendrick">Kendrick</string>
+    <string name="already_have_an_account">Already have an account?</string>
+
+    <string name="type_your_message">Type your message</string>
+    <string name="image">Image</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="contact">Contact</string>
+    <string name="location">Location</string>
+    <string name="document">Document</string>
+
+    <string name="shopping">&#160;Shopping</string>
+    <string name="flutterwave">Flutterwave</string>
+    <string name="order_placed">Balance Added!!!</string>
+    <string name="order_error">Error while payment!!!</string>
+    <string name="order_cancel">Cancel payment!!!</string>
+</resources>

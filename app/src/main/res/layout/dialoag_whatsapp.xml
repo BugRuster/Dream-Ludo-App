@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter WhatsApp Number"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:background="@color/colorAccent"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="center">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/numberEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="WhatsApp Number"
+            android:maxLength="10"
+            android:inputType="number"
+            android:textStyle="bold"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp">
+        <Button
+            android:id="@+id/cancelBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:background="@color/grey_60"/>
+        <Button
+            android:id="@+id/okayBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1"
+            android:text="Okay"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="Note : If in future, you need to update WhatsApp number then Visit profile section in application and update WhatsApp number"/>
+</LinearLayout>

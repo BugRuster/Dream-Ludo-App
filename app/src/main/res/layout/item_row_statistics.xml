@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.5dp"
+    app:cardPreventCornerOverlap="true"
+    app:contentPaddingBottom="5dp"
+    app:contentPaddingTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.9">
+            <TextView
+                android:id="@+id/posTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"  />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board Number #35"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:layout_gravity="start" />
+            <TextView
+                android:id="@+id/dateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Played On: 10/10/2018 at 7 PM"
+                android:textSize="10sp"
+                android:singleLine="true"
+                android:layout_gravity="start" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.8">
+            <TextView
+                android:id="@+id/feesTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5.0dip"
+            android:layout_weight="0.8">
+            <TextView
+                android:id="@+id/prizeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

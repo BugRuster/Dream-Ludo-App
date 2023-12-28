@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OfflinePayActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="enterAlways|scroll"
+        app:title="Request Deposit"
+        app:theme="@style/ToolbarTheme"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="kindly cash out the payment to our"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/grey_60" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/payTmRb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Rocket" />
+
+                <RadioButton
+                    android:id="@+id/payuRb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="Bkash" />
+
+                <RadioButton
+                    android:id="@+id/flutterWaveRb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="Nagad" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/accountIdTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_wallet_dotted"
+                android:padding="10.0dip"
+                android:text="**********"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#ff000000"
+                android:textIsSelectable="true" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameEt"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_wallet_all"
+                android:gravity="center_vertical"
+                android:hint="Enter Sender Name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:padding="@dimen/spacing_large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/numberEt"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_wallet_all"
+                android:gravity="center_vertical"
+                android:hint="Enter Transaction Number"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="20"
+                android:padding="@dimen/spacing_large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@drawable/bg_wallet_left"
+                    android:padding="@dimen/spacing_large"
+                    android:paddingStart="15sp"
+                    android:text="₹"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/amountEt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bg_wallet_right"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Amount"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="@dimen/spacing_large"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/noteTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="1.After you transfer the real money successfully, put the transaction number in this field.\n2.Balance will be deposited in your wallet within 24 hours.\n3.Please be careful when you enter the transaction number.\n\n*Note: deposit amount can't be withdrawable and it will be use to join paid contest in our app."
+                android:textAlignment="textStart"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/submitBt"
+                style="@style/loginButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:text="Submit Request"
+                android:textColor="#ffffffff"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@+id/alertTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Minimum Request Amount is ₹ 50."
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

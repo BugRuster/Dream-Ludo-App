@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "321356529262",
+    "project_id": "dream-ludo-959f3",
+    "storage_bucket": "dream-ludo-959f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321356529262:android:710bf658e27c4242df707f",
+        "android_client_info": {
+          "package_name": "com.definiteautomation.dreamludo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321356529262-pok8a020dirgjl3rru8euv10j369r6ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.definiteautomation.dreamludo",
+            "certificate_hash": "d2b64d13cf4cb0169e03847cf96c15738551f19b"
+          }
+        },
+        {
+          "client_id": "321356529262-h4emn4mlg0cpmnl0s746583uvjiqn1d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC8WjyRtG8ev0aTjxg02jupB-hOXK-nEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321356529262-h4emn4mlg0cpmnl0s746583uvjiqn1d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

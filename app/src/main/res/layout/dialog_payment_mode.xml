@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="00.0dip"
+    app:cardCornerRadius="0.0dip"
+    app:cardPreventCornerOverlap="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="00.0dip"
+        app:cardCornerRadius="0.0dip"
+        app:cardPreventCornerOverlap="true">
+
+        <RelativeLayout
+            android:visibility="visible"
+            android:id="@+id/mainRL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <RelativeLayout
+                android:id="@+id/topHeader1"
+                android:paddingStart="@dimen/spacing_large"
+                android:paddingEnd="@dimen/spacing_large"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize">
+                <TextView
+                    android:id="@+id/titleTv"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#ffffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Payment Mode"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <CheckedTextView
+                android:layout_below="@id/topHeader1"
+                android:id="@+id/paytmTv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="7.0dip"
+                android:drawableLeft="?android:listChoiceIndicatorSingle"
+                android:drawablePadding="10.0dip"
+                android:drawableStart="?android:listChoiceIndicatorSingle"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:text="PayTm"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?textColorAlertDialogListItem"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical" />
+
+            <CheckedTextView
+                android:visibility="gone"
+                android:layout_below="@id/paytmTv"
+                android:id="@+id/upiTv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="7.0dip"
+                android:drawableLeft="?android:listChoiceIndicatorSingle"
+                android:drawablePadding="10.0dip"
+                android:drawableStart="?android:listChoiceIndicatorSingle"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:text="UPI"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?textColorAlertDialogListItem"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical" />
+
+            <CheckedTextView
+                android:layout_below="@id/upiTv"
+                android:id="@+id/payuTv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="7.0dip"
+                android:drawableLeft="?android:listChoiceIndicatorSingle"
+                android:drawablePadding="10.0dip"
+                android:drawableStart="?android:listChoiceIndicatorSingle"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                android:text="PayUMoney"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?textColorAlertDialogListItem"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15.0dip"
+                android:layout_below="@+id/payuTv"
+                android:baselineAligned="false">
+                <LinearLayout android:padding="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <Button
+                        android:textSize="15.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffffff"
+                        android:id="@+id/cancelBt"
+                        android:background="@drawable/mybutton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel"
+                        android:textAllCaps="true"
+                        android:backgroundTint="#ff757575" />
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <Button android:textSize="15.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffffff"
+                        android:id="@+id/continueBt"
+                        android:background="@drawable/mybutton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pay"
+                        android:textAllCaps="true"
+                        android:backgroundTint="@color/colorPrimary" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>
