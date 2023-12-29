@@ -6,13 +6,13 @@ import com.definiteautomation.dreamludo.remote.FCMRetrofitClient;
 public class AppConstant {
 
     // Put your api url
-    public static final String API_URL = "https://ciad.hub2technologies.com/";
+    public static final String API_URL = "";
 
     // Put your purchase key
-    public static final String PURCHASE_KEY = "1234567890";
+    public static final String PURCHASE_KEY = "";
 
     // Put your FCM server key
-    public static final String SERVER_KEY = "AAAAStJXfm4:APA91bHiY6iANudB8IYkZa19wyGvEbfMLkj0BEcZkLfvutEh5-W5P35UI6jLEBNhFni60YXEj6JkAsoD-SNWOaLP79tOTLk6SnZ0y_zUzPVDsV1P9Crgg3tfeBwimCsJ4uTsysr9kyc_";
+    public static final String SERVER_KEY = "";
 
     // ************************* Below value ca be change from Admin Panel *************************
 
