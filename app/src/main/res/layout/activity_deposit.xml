@@ -25,6 +25,7 @@
         android:layout_height="match_parent"
         android:fillViewport="true">
         <LinearLayout
+            android:id="@+id/inputLayout"
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -42,6 +43,7 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:text="PayTm"
+                    android:visibility="gone"
                     android:checked="true"/>
                 <RadioButton
                     android:id="@+id/payuRb"
@@ -49,13 +51,14 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:text="PayUMoney"
+                    android:visibility="gone"
                     android:checked="false"/>
                 <RadioButton
                     android:id="@+id/flutterWaveRb"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:text="RazorPay"
+                    android:text="UPIGateway"
                     android:checked="false"/>
             </RadioGroup>
             <LinearLayout
@@ -126,4 +129,15 @@
                 android:textColor="@color/colorPrimary"/>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </RelativeLayout>

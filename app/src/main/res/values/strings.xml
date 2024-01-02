@@ -8,7 +8,7 @@
     <string name="facebook_client_token">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
 
     <!-- RazorPay Api Key -->
-    <string name="razorpay_api_key" translatable="false">rzp_test_MdERIpPjmlDQut</string>
+    <string name="razorpay_api_key" translatable="false">enter your api key here</string>
 
     <!-- ********************* No Need change below value  ************************* -->
 

@@ -1,0 +1,615 @@
+﻿<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+	<title>Documentation by "AZ Developer"</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+</head>
+<body>
+	
+	<section id="header">
+		<header> <span class=""><img src="images/app_icon.png" alt="" /></span>
+			<h4 id="logo">DreamLudo - Real Money Ludo Tournament App</h4>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#database"><i class="fa fa-hand-o-right"></i> MySql Database Configuration</a></li>
+				<li><a href="#adminpanel"><i class="fa fa-hand-o-right"></i> Admin Panel Configuration</a></li>
+				<li><a href="#eclipseversion"><i class="fa fa-hand-o-right"></i> Android Studio Configuration</a></li>
+				<li><a href="#importproject"><i class="fa fa-hand-o-right"></i> Importing Android Project</a></li>
+				<li><a href="#packagename"><i class="fa fa-hand-o-right"></i> Change Package Name</a></li>
+				<li><a href="#appname"><i class="fa fa-hand-o-right"></i> Change App Name</a></li>
+				<li><a href="#apilink"><i class="fa fa-hand-o-right"></i> Change API Links & Purchase Code</a></li>
+				<li><a href="#splash"><i class="fa fa-hand-o-right"></i> Change App Icon & Color Scheme</a></li>
+				<li><a href="#fcm"><i class="fa fa-hand-o-right"></i> Firebase Configuring</a></li>
+				<li><a href="#fcmWapp"><i class="fa fa-hand-o-right"></i> Firebase Web App Configuring</a></li>
+				<li><a href="#otp"><i class="fa fa-hand-o-right"></i> Enable Firebase Phone Auth & Google Login</a></li>
+				<li><a href="#verification"><i class="fa fa-hand-o-right"></i> Enable Android Device Verification</a></li>
+				<li><a href="#sha"><i class="fa fa-hand-o-right"></i> Add SHA-1 & SHA-256 Key in Firebase Project</a></li>
+				<li><a href="#facebook"><i class="fa fa-hand-o-right"></i> How to change Facebook app ID for Facebook Login</a></li>
+				<li><a href="#sign_apk"><i class="fa fa-hand-o-right"></i> Generate Signed APK</a></li>
+				<li><a href="#appInfo"><i class="fa fa-hand-o-right"></i> Configure App Details</a></li>
+				<li><a href="#fcmServerKey"><i class="fa fa-hand-o-right"></i> FCM Server Key</a></li>
+				<li><a href="#payment_getway"><i class="fa fa-hand-o-right"></i> Payment Getaway Configuration</a></li>
+				<li><a href="#wallet"><i class="fa fa-hand-o-right"></i> Wallet Configuration</a></li>
+				<li><a href="#scheduleTask"><i class="fa fa-hand-o-right"></i> Configure Schedule Task</a></li>
+				<li><a href="#support"><i class="fa fa-hand-o-right"></i> Thank you & Support Policy</a></li>
+				<li><a href="#faq"><i class="fa fa-hand-o-right"></i> Frequently Asked Questions</a></li>
+				
+			</ul>
+		</nav>  
+	</section>
+	
+	<div id="wrapper">
+		<div id="main">
+		
+			<section id="one">
+				<div class="container">
+					<header class="major">
+						<h2>DreamLudo - Real Money Ludo Tournament App</h2>
+					</header>
+					<div class="borderTop">
+						<div class="span-6 colborder info prepend-1">
+							<p class="prepend-top"> <strong>Created:- 01 Nov 2021<br>
+								Company:- AZ Developer<br>
+								Support Email:- azdeveloperofficial@gmail.com<br>
+								Contact:- <a href="https://codecanyon.net/user/azdeveloperofficial" style='color:#0e8bcb' target="_blank">
+								Codecanyon Profile</a> </strong> 
+							</p>
+						</div>
+						<div class="span-12 last">
+							<p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="https://codecanyon.net/user/azdeveloperofficial" style='color:#0e8bcb' target="_blank">Here</a>. Thanks so much!</p>
+						</div>
+					</div>
+					<div class="section_bdr"></div>	
+
+
+					<section id="database">
+						<div class="container"> <br>
+							<h2>Quick Setup MySql Database Configuration</h2>
+							<div class="section-block">
+								<strong>Step 1 -</strong> Login to your cpanel and open MySQL Databases
+								<span class="lightbox"><img src="images/sql_1.jpg" alt=""/> </span>
+								<strong>Step 2 -</strong> Create Database in mysql databases ( in cPanel ) with the name of "Reward" you can write what ever you want
+								<span class="lightbox"><img src="images/sql_2.png" alt=""/> </span>
+								<strong>Step 3 -</strong> Create a new user
+								<span class="lightbox"><img src="images/sql_3.png" alt=""/> </span>
+								<strong>Step 4 -</strong> Assign that user to database and check ALL PRIVILEGES
+								<span class="lightbox"><img src="images/sql_4.png" alt=""/> </span>
+							</div>
+							<br />
+							<h2>Import Database .sql file</h2>
+							<div class="section-block">
+								<strong>Step 1 -</strong> Open phpMyAdmin and select your database
+								<span class="lightbox"><img src="images/sql_5.jpg" alt=""/> </span>
+								<strong>Step 2 -</strong> Import database file which we have provided in your downloaded package from <strong>codecanyon</strong>
+								<span class="lightbox"><img src="images/sql_6.png" alt=""/> </span>
+								<span class="lightbox"><img src="images/sql_7.png" alt=""/> </span>
+							</div>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="adminpanel">
+						<div class="container"> <br>
+							<h2>Quick Setup Admin Panel Configuration</h2>
+							<div class="section-block">
+                               	<p><strong>Step 1 -</strong> You have to upload the Admin panel files which we have provided in your downloaded package from <strong>codecanyon</strong></p>
+								<p><strong>Step 2 -</strong> Login in your hosting cpanel Navigate to <em>File Manager and upload the admin panel files , then extract it </p>
+								<span class="lightbox"><img src="images/filemanager_1.jpg" alt=""/> </span>	
+								<p><strong>Step 3 -</strong> For configuration edit a file </em> </em> <strong>"config.php"</strong> inside <strong>"include"</strong> folder</p>
+								<p><strong>Step 4 -</strong> You must replace this data with your own data and save (database credential, email, firebase details, purchase code etc.)</p>	
+								<span class="lightbox"><img src="images/connection_4.png" alt=""/> </span>	
+							</div>
+							<br />
+							<h2>Check Database Connection</h2>
+							<p>Before you check this make sure that your web hosting able to run .htaccess file</p>
+							<div class="section-block">
+								<strong>Step 1 -</strong> URL format to check database connection : http://your_domain_com/api/check_connection/?</strong><br />
+								<strong>Step 2 -</strong> Make sure you don't have any error (blank page indicates successful connection) 
+							</div>								
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+					<section id="eclipseversion">
+						<div class="container"> <br>
+							<h2>Which Android Studio version is needed?</h2>
+							<p>Latest Android Studio version is recommended, which can be downloaded from here:<br />
+							<a style="color:#0e8bcb" href="http://developer.android.com/intl/en/sdk/index.html" target="_blank">http://developer.android.com/intl/en/sdk/index.html</a> </p>
+							<span class="lightbox"> <img src="images/android_studio_ver.png" alt=""/> </span>            
+							<span class="lightbox"><img src="images/android_studio_ver_2.png" alt=""/> </span>            
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+
+					<section id="importproject">
+						<div class="container"> <br>
+							<h2>How to Open The Project in Android Studio?</h2>
+							<ul class="feature_list">
+								<li>Open Android Studio > Open an Existing Android Studio Project > Select Your Project build. gradle file > ok </li>
+								<li>Select Project</li>
+								<span class="lightbox"><img src="images/import_1.png" alt=""/> </span>
+								<span class="lightbox"><img src="images/import_2.png" alt=""/> </span>
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+
+					<section id="packagename">
+						<div class="container"> <br>
+							<h2>How to change the package name? </h2>
+							<p>You can change it easily from Android Studio. Here are the steps:</p>
+							<ul class="feature_list">
+								<li>In the Project pane, click on the little gear icon.Uncheck/Deselect the Compact Empty Middle Packages option.</li>
+								<li>Your package directory will now be broken up in individual directories.</li>
+								<li>Individually select each directory you want to rename, and: Right-click itSelect RefactorClick on RenameIn the Pop-up dialog.</li>
+								<li>Click on Rename Package instead of Rename Directory Enter the new name and hit RefactorAllow a minute to let Android Studio update all changes.</li>
+								<li>Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</li>
+							</ul>
+							<p style="font-size:18px"><b>Note:</b> When renaming com in Android Studio, it might give a warning. In such case, select Rename All.</p>
+							<span class="lightbox"><img src="images/packagename_1.png" alt=""/> </span>
+							<span class="lightbox"><img src="images/packagename_2.png" alt=""/> </span>
+							<span class="lightbox"><img src="images/packagename_3.png" alt=""/> </span>
+							<span class="lightbox"><img src="images/packagename_4.png" alt=""/> </span>
+							<span class="lightbox"><img src="images/packagename_5.png" alt=""/> </span>
+							<span class="lightbox"><img src="images/packagename_6.png" alt=""/> </span>            
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+
+					<section id="appname">
+						<div class="container"> <br>
+							<h2>How to change app name? </h2>
+							<ul class="feature_list">
+							<li>Open Android Studio > app > res > values > strings.xml</li>
+							<li>Enter your app name inside <b style="color:#0e8bcb">"app_name"</b> string tag:<br />
+								<code>&lt;string name="app_name"&gt;<b>Dream Ludo</b>&lt;/string&gt;</code></li>
+								<span class="lightbox"><img src="images/app_name.png" alt=""/> </span>
+							</ul>            
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="apilink">
+						<div class="container"> <br>
+							<h2>How to change API Links & Purchase Code? </h2>
+							<p> <b>How to change API Links?</b></p>
+							<ul class="feature_list">
+							<li>Open Android Studio > app > package > helper > AppConstant.java</li>
+							<li>Replace your <b style="color:#0e8bcb">"API_URL"</b> on AppConstant.java file<br />
+								<code>public static String API_URL = "<b>http://domain.com/</b>"</code><br />
+								<span class="lightbox"><img src="images/basic_config.png" alt=""/> </span> 
+							</ul> 
+			
+							<ul class="feature_list">
+							<li>Open Android Studio > app > res > xml > network_security_config.xml</li>
+							<li>Replace your domain name from <b style="color:#0e8bcb">"domain.com"</b> on network_security_config.xml file
+								<span class="lightbox"><img src="images/network_config.png" alt=""/> </span> 
+							</ul> 	
+							
+							<p> <b>How to change Purchase Code?</b></p>
+							<ul class="feature_list">
+							<li>Open Android Studio > app > package > helper > AppConstant.java</li>
+							<li>Replace your <b style="color:#0e8bcb">"API_URL"</b> on AppConstant.java file<br />
+								<code>public static String PURCHASE_KEY = "<b>1234567890</b>"</code><br />
+								<span class="lightbox"><img src="images/basic_config.png" alt=""/> </span> </li>
+							</ul> 
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="splash">
+						<div class="container"> <br>
+							<h2>How to change Application Icon and App Color Code'? </h2>
+							<p> <b>How To Change Application Icon</b></p>
+								<ul class="feature_list">
+									<li>Open Android Studio > app > res ></li>
+									<li>Rename your icon with ic_launcher.png and paste in all mipmap folders</li>
+									<span class="lightbox"> <img src="images/app_icon_1.png" alt=""/> </span>
+									<span class="lightbox"> <img src="images/app_icon_2.png" alt=""/> </span>
+								</ul>
+								
+								<p> <b>How To Change App Color Code</b></p>
+									<ul class="feature_list">
+										<li>Open Android Studio > app > res > values > color.xml</li>
+										<li>Replace your color code on color.xml file<br></li>
+										<span class="lightbox"> <img src="images/app_color.png" alt=""/> </span>
+									</ul>
+						</div>	
+					</section>
+					<div class="section_bdr"></div>
+
+
+					<section id="fcm">
+						<div class="container"> <br>
+							<h2>How to generate FCM server key and replace google-service.json? </h2>
+							<p> Open google firebase console account <a href="https://console.firebase.google.com"> <b style="color:#0e8bcb">here</b> </a></p>			 
+							<ul class="feature_list">
+								<li>Create New Project</li>
+								<span class="lightbox"> <img src="images/firebase1.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/firebase2.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/firebase3.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/firebase4.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/firebase5.png" alt=""/></span>
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+
+					<section id="fcmWapp">
+						<div class="container"> <br>
+							<h2>How to setup FCM Web App and replace FCM data in config.php file? </h2>
+							<p> Open google firebase console account <a href="https://console.firebase.google.com"> <b style="color:#0e8bcb">here</b> </a></p>			 
+							<ul class="feature_list">
+								<li>Create New App</li>
+								<span class="lightbox"> <img src="images/firebase_config1.png" alt=""/></span>
+								<li>Select Web Platform</li>
+								<span class="lightbox"> <img src="images/firebase_config2.png" alt=""/></span>
+								<li>Enter your app name</li>
+								<span class="lightbox"> <img src="images/firebase_config3.png" alt=""/></span>
+								<li>Save given details and replace it inside config.php file</li>
+								<span class="lightbox"> <img src="images/firebase_config4.png" alt=""/></span>
+								<b>File Location: "include/config.php"</b>
+								<li>Also need to change this data in 'firebase-messaging-sw.js' for admin panel notification (when user submit their result).</li>
+								<b>File Location: "available at root directory"</b>
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="otp">
+						<div class="container"> <br>
+							<h2>Enable Firebase Phone Auth & Google Login</h2>
+							<ul class="feature_list">
+								<li>Open your firebase console.</li>
+								<li>Go to Authentication and open Sign-in method.</li>
+								<li>Enable Phone & Google authentication method and save.</li>
+								<li>Other verification code already done in android code.So, we don't have to add extra code for firebase OTP.</li>
+								<span class="lightbox"><img src="images/otp_1.png" alt=""/></span>
+								<span class="lightbox"><img src="images/otp_2.png" alt=""/></span>
+							</ul>			
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="verification">
+						<div class="container"> <br>
+							<h2>Enable Android Device Verification From Cloud Plateform</h2>	 
+							<ul class="feature_list">
+								<li>Open your firebase project.</li>
+								<li>Go to Project Setting and follow below steps :</li>
+								<span class="lightbox"> <img src="images/no_verifcation_1.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/no_verifcation_2.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/no_verifcation_3.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/no_verifcation_4.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/no_verifcation_5.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/no_verifcation_6.png" alt=""/></span>
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="sha">
+						<div class="container"> <br>
+							<h2>Add SHA-1 and SHA-256 Key in Firebase Setting</h2>	 
+							<ul class="feature_list">
+								<li>Add Debug SHA-1 and SHA-256</li>
+								<span class="lightbox"> <img src="images/firebase6.png" alt=""/></span>
+								<span class="lightbox"> <img src="images/firebase7.png" alt=""/></span>
+							</ul>
+							
+							<p><b style="color:#ff0000;font-size:18px;">Note :- When we upadte Application on playstore we have to Add Signature SHA1 and SHA256 in Firebase setting.Here ispath where you can get SHA1 and SHA256 from PlayConsole.</b></p>
+							<span class="lightbox"> <img src="images/otp_sha_3.png" alt=""/> </span>
+							<ul class="feature_list">
+								<li>if you not received OTP check points is aready done or not.</li>
+								<li>Enabled phone sign in in firebase?</li>
+								<li>Added SHA1 and SHA256 key in firebase project setting?</li>
+								<li>Added google-service.json file in android project.</li>
+								<li>Package name should be same in firebase and android.</li>
+								<li>Change application id as package name in build,gradle file ?</li>
+								<li>Rebuild Project and installl new apk.</li>
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="facebook">
+						<div class="container">
+							<br>
+							<h2>How to change facebook app ID for Facebook Login</h2>
+							<ul class="feature_list">
+								<li>You must Running Sample Apps and after search keyword like  KeyHash  from Logcat of your android studio</li>
+								<li>On Android Studio’s &nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">‘Logcat’</span>&nbsp; menu, you’ll see &nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">‘KeyHash’</span>&nbsp;. Copy this, and keept it safe place which will need later.
+								<a class="lightbox" href="#fb_1"> <img src="images/fb_1.png" alt=""/> </a>
+									<div class="lightbox-target" id="fb_1"> <img src="images/fb_1.png" alt=""/> <a class="lightbox-close" href="#fb_1"></a> </div>
+								</li>
+								<li>
+								<b>Please log in to Facebook to create apps or register as a developer.</b><br>
+								<a href='https://developers.facebook.com/' style="color:#06F" target="_blank">https://developers.facebook.com/</a><br>
+								</li>
+								<li>
+								<b>Then Copy and paste this Release Key Hash into your Facebook App ID's Android settings.</b><br>
+									<ul>
+									<li>You should also check that your Facebook App ID's Android setting also contain the correct package name and main activity class for your Android package.</li>
+									<li>Add your packagename, classname and KeyHashes to your facebook project. For example</li>
+									<a class="lightbox" href="#fb_2"> <img src="images/fb_2.png" alt=""/> </a>
+									<div class="lightbox-target" id="fb_2"> <img src="images/fb_2.png" alt=""/> <a class="lightbox-close" href="#fb_2"></a> </div>
+									</ul>
+								</li>
+								<b>Then add your Facebook App ID to your project's strings file</b><br>
+									<ul>
+									<li>Open your /app/res/values/strings.xml file.</li>
+									<li>Add string elements with the names facebook_app_id, fb_login_protocol_scheme and facebook_client_token, and set the values to your <a href="https://developers.facebook.com/docs/android/getting-started#app-id"> <b style="color:#0e8bcb">App ID</b> </a> and <a href="https://developers.facebook.com/docs/android/getting-started#client-token"> <b style="color:#0e8bcb">Client Token</b> </a>. For example, if your app ID is 1234 and your client token is 56789 your code looks like the following</li>
+									<a class="lightbox" href="#app_name"> <img src="images/app_name.png" alt=""/> </a>
+									<div class="lightbox-target" id="app_name"> <img src="images/app_name.png" alt=""/> <a class="lightbox-close" href="#app_name"></a> </div>
+									</ul>
+								</li>
+								<b>Atlast allow Permissions / Login Review</b><br>
+									<ul>
+									<li>Allow public_profile and email access Permissions <a href="https://developers.facebook.com/docs/facebook-login/guides/permissions/review"> <b style="color:#0e8bcb">Read More</b> </a> </li>
+									<a class="lightbox" href="#app_name"> <img src="images/app_name.png" alt=""/> </a>
+									</ul>
+								</li>
+							</ul> 
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="sign_apk">
+						<div class="container"> <br>
+							<h2>How to Generate Signed APK?</h2>
+							<p><b>Create New Keystore</b></p>
+							<ul class="feature_list">
+								<li>Click Build > Generate Signed APK</li>
+								<span class="lightbox"> <img src="images/signapk_1.png" alt=""/> </span><br>
+								<li>Choose .abb or .apk extension and click next</li>
+								<span class="lightbox"><img src="images/signapk_2.png" alt=""/> </span><br>
+								<li>Click On Create New or if you are updating app click choose existing</li>
+								<span class="lightbox"><img src="images/signapk_3.png" alt=""/> </span><br>
+								<li>Select Keystore Path</li>
+								<li>Enter Keystore password and confirm password</li>
+								<li>Enter any name for alias</li>
+								<li>Enter key password and confirm password</li>
+								<li>Choose Validity Years</li>
+								<li>Fill rest of the details and click OK</li>
+								<span class="lightbox"><img src="images/signapk_4.png" alt=""/> </span><br>
+								<li>Enter keystore password, alias name and key password and click next</li>
+								<span class="lightbox"><img src="images/signapk_5.png" alt=""/> </span><br>
+								<li>Choose the signed apk destination</li>
+								<li>Tick the signatures (if .apk extension selected)</li>
+								<li>Click Finish</li>
+								<span class="lightbox"> <img src="images/signapk_6.png" alt=""/> </span>              
+							</ul>
+							<p><b style="color:#ff0000;font-size:18px;">Note :- Please save the keystore and remember the keystore password, alias and key password. If you want to update app in future you have to use this keystore. With new keystore you cannot update your app</b></p>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="appInfo">
+						<div class="container"> <br>
+							<h2>Configure App Information and other details</h2>
+							<p>Manage app name, logo, icon, timezone, currency and country code, and other details:<br />
+							<ul class="feature_list">
+								<li>Login to admin panel</li>
+								<li>Setting > App Configuration</li>
+								<li>Basic Info and Other tab</li>
+							</ul>	
+							<span class="lightbox"> <img src="images/appInfo.png" alt=""/> </span>            
+							<span class="lightbox"><img src="images/appInfo2.png" alt=""/> </span>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+
+					<section id="fcmServerKey">
+						<div class="container"> <br>
+							<h2>How to Change FCM server key in Application? </h2>
+							<span class="lightbox"><img src="images/notification_1.png" alt=""/></span>
+							<p> <b>Get your Google Server API key and project number.</b><br>
+								<a href='https://documentation.onesignal.com/docs/generate-a-google-server-api-key' style="color:#06F" target="_blank">https://documentation.onesignal.com/docs/generate-a-google-server-api-key</a><br>
+							</p>
+							<p><b>How to Change FCM Server Key in Admin App</b></p>
+							<ul class="feature_list">
+								<li>Login to admin panel</li>
+								<li>Setting > App Configuration</li>
+								<li>Update Google FCM server key</li>
+								<span class="lightbox"><img src="images/fcmServerKey.png" alt=""/></span>
+							</ul>	
+							<p><b>How to Change FCM Server Key in Android App</b></p>
+							<ul class="feature_list">
+								<li>Open Android Studio > app > package > helper > AppConstant.java</li>
+								<li>Replace your <b style="color:#0e8bcb">"AUTHORIZATION_KEY"</b> on AppConstant.java file<br />
+									<code>public static String AUTHORIZATION_KEY = "<b>AAAAXXXXXXXXXXXXXXXXX</b>"</code><br />
+									<span class="lightbox"><img src="images/basic_config.png" alt=""/> </span> 
+							</ul> 
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+					<section id="payment_getway">
+						<div class="container"> <br>
+							<h2>Quick Setup Payment Getway Configuration? </h2>
+							
+							<b>How to change PayTm Keys</b>
+							<ul class="feature_list">
+							<li>Login to Admin panel > setting > App configuration > Payment Gateway Configuration</li>
+							<li>Replace your <b style="color:#0e8bcb">"Merchant ID"</b> and <b style="color:#0e8bcb">"Merchant Key"</b><br />
+							</li>
+								<span class="lightbox"><img src="images/paytm_payment_gateway.png" alt=""/> </span>  
+							</ul>
+							
+							<b>How to change PayU Money details</b>
+							<ul class="feature_list">
+							<li>Login to Admin panel > setting > App configuration > Payment Gateway Configuration</li>
+							<li>Replace your <b style="color:#0e8bcb">"PayU ID"</b>, <b style="color:#0e8bcb">"PayU Key"</b> and <b style="color:#0e8bcb">"PayU SALT"</b><br />
+							</li>
+							<span class="lightbox"><img src="images/payu_payment_gateway.png" alt=""/> </span>  					
+							</ul>
+							
+							<b>How to change RazorPay API Key</b>
+							<ul class="feature_list">
+							<li>Open Android Studio > app > res > values > strings.xml file.</li>
+							<li>Replace your <b style="color:#0e8bcb">"RazorPay API Key"</b> on string.xml file</li>
+							<span class="lightbox"><img src="images/app_name.png" alt=""/> </span>  			
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="wallet">
+						<div class="container"> <br>
+							<h2>Enable/Disable Wallet Withdraw Option</h2>
+							<p>You can manage wallet withdraw option and set limit to other parameters:<br />
+							<ul class="feature_list">
+								<li>Login to admin panel</li>
+								<li>Setting > App Configuration</li>
+								<li>Wallet</li>
+							</ul>	
+							<span class="lightbox"> <img src="images/wallet.png" alt=""/> </span>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+					<section id="scheduleTask">
+						<div class="container"> <br>
+							<h2>How to set auto schedule task</h2>
+							<p>Configure auto task (cronjob) for result:<br />
+							</p>
+							<ul class="feature_list">
+								<li>Login to Hosting Server (cPanel)</li>
+								<li>Go to Advanced Tab</li>
+								<li>Go to Cron Jobs</li>
+								<li>Add new Cron Job</li>
+							</ul>
+							<p>Fill the Form details according to below data:</p>
+							<p>Set cronjob for every minute</p>
+							<p>File Name: cronjob.php and cronjob2.php</p>
+							<span class="lightbox"> <img src="images/cronjob1.png" alt=""/> </span>
+							<span class="lightbox"> <img src="images/cronjob2.png" alt=""/> </span>
+							<p>Set cronjob for every 5 minute</p>
+							<p>File Name: cronjob3.php</p>
+							<span class="lightbox"> <img src="images/cronjob3.png" alt=""/> </span>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+					
+					<section id="support">
+						<div class="container"> <br>
+							<h2>Thank you & Support Policy</h2>
+							<p> I'd like to thank you again for your purchase and I hope you where able to successfully install the app and using it in your future business . If you need support or have some questions. You can visit our support resources here at <b style="color:#fc5a55;">azdeveloperofficial@gmail.com</b> </p>
+							
+							<strong>What support does include</strong>
+							<ul class="feature_list">
+								<li>Answers to (technical) questions about the item's features</li>
+								<li>Assistance with reported bugs and issues</li>
+								<li>Answers to questions about importing and setting up the item as is described in the docs.</li>
+							</ul>
+
+
+							<strong>Please note that support does not include:</strong>
+							<ul class="feature_list">
+								<li>Customization &amp; adding new features</li>
+								<li>Installation Services</li>
+								<li>Support for 3rd party software and/or plugins</li>
+								<li>Content related rejections and violations from Google</li>
+							</ul>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+
+
+					<section id="faq">
+						<div class="container"> <br>
+							<h2>Frequently Asked Questions</h2>
+							
+							<div class="section-block">
+                            	<h5 id="#">App Develop in native or not?</h5>
+								<p>Yes app is in native coding</p>
+								
+								<h5 id="#">Which PHP version?</h5>
+								<p>it will work on PHP 7.2 or more then 7.2 </p>
+								
+								<h5 id="#">Which Database You are using?</h5>
+								<p>We are using mysql database</p>
+								
+								<h5 id="#">Does Demo Data included (Demo users like on our app)?</h5>
+								<p>Yes Test/Demo users profiles are included in the package</p>
+								
+								<h5 id="#">Does it have 3rd party services?</h5>
+								<p>Yes , It has Firebase Third party for send push notifications, Which is free</p>
+							    
+							    <h5 id="#">Does it have Admin panel </h5>
+								<p>Yes It has admin panel connected with datbase via PHP API</p>
+								
+								<h5 id="#">Does it have Documentation  </h5>
+								<p>Yes it has Documentation about android , web api setup , admin panel setup , firebase push notification setup</p>
+								
+							</div>
+						</div>
+					</section>
+					<div class="section_bdr"></div>
+					
+
+					<!-- Footer -->
+					<section id="footer">
+						<div class="container">		    
+							<ul class="copyright">
+								<li>
+									<h3><span style="color:#ff7810;font-style:italic">AZ</span> <span style="color:#3e4890;font-style:italic">DEVELOPER</span></h3>
+								</li>
+							</ul>
+						</div>
+					</section>
+					
+					
+				</div>
+			</section>
+		</div>
+	</div>
+					
+					
+	<!-- Scripts --> 
+	<script src="assets/js/jquery.min.js"></script> 
+	<script src="assets/js/jquery.scrollzer.min.js"></script> 
+	<script src="assets/js/jquery.scrolly.min.js"></script> 
+	<script src="assets/js/skel.min.js"></script> 
+	<script src="assets/js/util.js"></script> 
+	<script src="assets/js/main.js"></script> 
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 100) {
+					$('.scrollup').fadeIn();
+				} else {
+					$('.scrollup').fadeOut();
+				}
+			});
+			$('.scrollup').click(function(){
+				$("html, body").animate({ scrollTop: 0 }, 600);
+				return false;
+			});
+		});
+	</script>
+	<div><a href="#" class="scrollup">Scroll</a></div>
+	
+	
+</body>
+</html>

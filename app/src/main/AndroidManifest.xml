@@ -57,7 +57,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         tools:replace="android:usesCleartextTraffic,android:allowBackup"
-        tools:targetApi="s"
+        tools:targetApi="31"
         android:dataExtractionRules="@xml/data_extraction_rules">
 
         <activity
@@ -75,6 +75,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".activity.RegisterActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -143,7 +145,13 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden"
-            tools:ignore="LockedOrientationActivity"/>
+            tools:ignore="LockedOrientationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".activity.WithdrawActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

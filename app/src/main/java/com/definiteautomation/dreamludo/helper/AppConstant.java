@@ -6,13 +6,15 @@ import com.definiteautomation.dreamludo.remote.FCMRetrofitClient;
 public class AppConstant {
 
     // Put your api url
-    public static final String API_URL = "";
-
+    public static final String API_URL = "Enter your Api Url";
+    // https://ciad.hub2technologies.com/
     // Put your purchase key
     public static final String PURCHASE_KEY = "";
 
+    // 1234567890 Enter your prchase key
+
     // Put your FCM server key
-    public static final String SERVER_KEY = "";
+    public static final String SERVER_KEY = "Enter your firebase key here FCM";
 
     // ************************* Below value ca be change from Admin Panel *************************
 
