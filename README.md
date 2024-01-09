@@ -24,3 +24,5 @@ To run the app, you'll need:
 
    ```bash
    git clone https://github.com/yourusername/DREAM-Ludo-Kotlin.git
+
+   Copyright BugRuster
